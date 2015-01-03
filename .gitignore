@@ -21,4 +21,4 @@ scripts/build
 .wi-site
 __pycashe__
 *.pyc
-
+srvconfig.py

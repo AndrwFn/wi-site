@@ -1,0 +1,4 @@
+## Put srvconfig.py to root of app directory
+
+HOST = 'localhost'
+PORT = 8002
