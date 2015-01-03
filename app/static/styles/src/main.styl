@@ -1,0 +1,32 @@
+/**
+ * Main styles module
+ *
+ * @author Viacheslav Lotsmanov
+ * @license GNU/AGPLv3
+ * @see {@link https://github.com/web-izmerenie/wi-site/blob/master/LICENSE-AGPLv3|License}
+ */
+
+@require 'nib'
+
+@require 'variables'
+@require 'mixins'
+@require 'fonts'
+@require 'icons'
+@require 'preload'
+
+global-reset()
+reset-html5()
+
+html, body
+	reset-box-model()
+	font-metrics 0 0
+	size: 100%
+
+body
+	background white
+	color black
+	min-width $min-width
+
+@require 'header'
+
+@require 'pages/general'
