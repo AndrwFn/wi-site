@@ -4,22 +4,22 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=760" />
 	<title>Web izmerenie</title>
-	<script src="./scripts/build/build.js?v=1"></script>
+	<script src="{{ static_url('scripts/build/build.js?v=1') }}"></script>
 	<link
-		rel="stylesheet" href="./styles/build/build.css?v=1" type="text/css"
+		rel="stylesheet" href="{{ static_url('styles/build/build.css?v=1') }}" type="text/css"
 		class="main-styles">
 </head>
 <body>
 	<header>
 		<a href="/#card-1" class="logo">
-			<img alt="Логотип" src="./images/wi-logo.svg?v=1" class="logo-image" />
+			<img alt="Логотип" src="{{ static_url('images/wi-logo.svg') }}" class="logo-image" />
 			<span class="logo-text">Web izmerenie</span>
 		</a>
 		<div class="fixed-header">
 			<a href="/#menu" class="call-menu" title="Открыть меню">Открыть меню</a>
 			<div class="menu" id="menu">
 				<a href="/#card-1" class="logo">
-					<img alt="Логотип" src="./images/wi-logo.svg?v=1" class="logo-image" />
+					<img alt="Логотип" src="{{ static_url('images/wi-logo.svg') }}" class="logo-image" />
 					<span class="logo-text">Web izmerenie</span>
 				</a>
 				<nav>
@@ -52,7 +52,7 @@
 			<li>
 				<img
 					alt="Текстильная фабрика «ДМ-Текстиль»"
-					src="./tmp/portfolio/bg_1.jpg"
+					src="{{ static_url('tmp/portfolio/bg_1.jpg')}}"
 					class="bg">
 				<div class="text">
 					<h3>ДМ-Текстиль</h3>
@@ -63,7 +63,7 @@
 			<li>
 				<img
 					alt="Portland"
-					src="./tmp/portfolio/bg_2.jpg"
+					src="{{ static_url('tmp/portfolio/bg_2.jpg') }}"
 					class="bg">
 				<div class="text">
 					<h3>Portland</h3>
@@ -74,7 +74,7 @@
 			<li>
 				<img
 					alt="Даная"
-					src="./tmp/portfolio/bg_3.jpg"
+					src="{{ static_url('tmp/portfolio/bg_3.jpg')}}"
 					class="bg">
 				<div class="text">
 					<h3>Даная</h3>
