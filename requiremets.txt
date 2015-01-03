@@ -1,0 +1,7 @@
+PyYAML==3.11
+SQLAlchemy==0.9.8
+certifi==14.05.14
+psycopg2==2.5.4
+pyjade==3.0.0
+six==1.9.0
+tornado==4.0.2
