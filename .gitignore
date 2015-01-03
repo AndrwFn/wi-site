@@ -17,3 +17,6 @@ node_modules
 
 styles/build
 scripts/build
+
+.wi-site
+
