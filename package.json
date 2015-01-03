@@ -36,7 +36,7 @@
     "scripts": {
       "main": {
         "type": "liveify",
-        "path": "./scripts/",
+        "path": "./app/static/scripts/",
         "mainSrc": "main.ls",
         "buildFile": "build.js",
         "jshintDisabled": true,
@@ -55,7 +55,7 @@
     "styles": {
       "main": {
         "type": "stylus",
-        "path": "./styles/",
+        "path": "./app/static/styles/",
         "mainSrc": "main.styl",
         "buildFile": "build.css"
       }
