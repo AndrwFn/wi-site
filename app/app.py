@@ -18,9 +18,9 @@ class WiSiteApplication(tornado.web.Application):
 
 		tornado.web.Application.__init__(self, handlers, **settings)
 
-def run_instance(port):
+def run_instance(port, host):
 	tornado.options.parse_command_line()
 	http_server = tornado.httpserver.HTTPServer(WiSiteApplication())
-	http_server.listen(port)
-	print("Server started on port %s" % port)
+	http_server.listen(port, address=host)
+	print("Server started on %s:%s" % (host, port))
 	tornado.ioloop.IOLoop.instance().start()
